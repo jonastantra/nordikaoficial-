@@ -160,8 +160,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Trigger after 4 seconds (faster for testing/review)
-    setTimeout(showModal, 4000);
+    // Trigger after 12 seconds for better user experience
+    setTimeout(showModal, 12000);
 
     // Also exit intent
     document.addEventListener('mouseleave', (e) => {
