@@ -7,7 +7,7 @@ const translations = {
     es: {
         topBanner: 'AL COMPRAR LA MÚSICA, APOYAS A LA FAMILIA NÓRDIKA. ¡GRACIAS POR TU APOYO!',
         navHome: 'Inicio', navAbout: 'Biografía', navLegacy: 'Apoyo',
-        navPhotos: 'Fotos', navMusic: 'Música', navShop: 'Tienda',
+        navLatest: 'Música Reciente', navMusic: 'Música', navShop: 'Tienda',
         heroRemembering: 'RECORDÁNDOLO',
         heroInLovingMemory: 'EN AMOROSA MEMORIA',
         heroBtn: 'COMPRAR MÚSICA',
@@ -26,8 +26,7 @@ const translations = {
         benefit3Desc: 'A diferencia del streaming, al comprar descargas digitales la música será tuya para siempre. Escúchala sin internet.',
         funnelCtaTitle: 'Adquiere la discografía completa y mantén viva la música.',
         funnelCtaBtn: 'Ir a Bandcamp',
-        photosTitle: 'Recuerdos Invaluables',
-        photosSubtitle: 'Un vistazo a sus presentaciones y al viaje de Nordika.',
+
         musicTitle: 'Su Último Trabajo',
         musicSubtitle: 'Esta producción marca el final de su viaje musical físico, pero su legado electrónico resonará para siempre.',
         latestTracksTitle: 'Últimos Lanzamientos',
@@ -46,7 +45,7 @@ const translations = {
     en: {
         topBanner: 'BY PURCHASING THE MUSIC, YOU SUPPORT THE NÓRDIKA FAMILY. THANK YOU FOR YOUR SUPPORT!',
         navHome: 'Home', navAbout: 'Biography', navLegacy: 'Support',
-        navPhotos: 'Photos', navMusic: 'Music', navShop: 'Shop',
+        navLatest: 'Latest Tracks', navMusic: 'Music', navShop: 'Shop',
         heroRemembering: 'REMEMBERING HIM',
         heroInLovingMemory: 'IN LOVING MEMORY',
         heroBtn: 'BUY MUSIC',
@@ -65,8 +64,7 @@ const translations = {
         benefit3Desc: 'Unlike streaming, buying digital downloads means the music is yours forever. Listen on any device, even offline.',
         funnelCtaTitle: 'Get the full discography and keep the music alive.',
         funnelCtaBtn: 'Go to Bandcamp',
-        photosTitle: 'Cherished Memories',
-        photosSubtitle: 'A glimpse into his performances and the journey of Nordika.',
+
         musicTitle: 'The Last Work',
         musicSubtitle: 'This release marks the end of his physical musical journey, but his electronic legacy will resonate forever.',
         latestTracksTitle: 'The Latest Tracks',
@@ -190,7 +188,7 @@ function applyTranslations(lang) {
     const map = {
         'top-banner-text': 'topBanner',
         'nav-home': 'navHome', 'nav-about': 'navAbout', 'nav-legacy': 'navLegacy',
-        'nav-photos': 'navPhotos', 'nav-music': 'navMusic', 'nav-shop': 'navShop',
+        'nav-latest': 'navLatest', 'nav-music': 'navMusic', 'nav-shop': 'navShop',
         'hero-remembering': 'heroRemembering', 'hero-in-loving-memory': 'heroInLovingMemory',
         'hero-btn': 'heroBtn',
         'about-title': 'aboutTitle', 'about-p1': 'aboutP1', 'about-p2': 'aboutP2',
@@ -200,7 +198,7 @@ function applyTranslations(lang) {
         'benefit-2-title': 'benefit2Title', 'benefit-2-desc': 'benefit2Desc',
         'benefit-3-title': 'benefit3Title', 'benefit-3-desc': 'benefit3Desc',
         'funnel-cta-title': 'funnelCtaTitle', 'funnel-cta-btn': 'funnelCtaBtn',
-        'photos-title': 'photosTitle', 'photos-subtitle': 'photosSubtitle',
+
         'music-title': 'musicTitle', 'music-subtitle': 'musicSubtitle',
         'latest-tracks-title': 'latestTracksTitle', 'latest-tracks-subtitle': 'latestTracksSubtitle',
         'modal-title': 'modalTitle', 'modal-btn': 'modalBtn',
