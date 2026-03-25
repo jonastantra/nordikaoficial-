@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nordika Official | In Loving Memory of Héctor Alejandro Marín Ríos</title>
+    <meta name="description" content="Official memorial website honoring the musical legacy of Héctor Alejandro Marín Ríos (Nórdika). Explore his biography, purchase music on Bandcamp to support his family, and celebrate his synthpop journey.">
+    <meta name="keywords" content="Nordika, Nórdika, synthpop, Héctor Alejandro Marín Ríos, bandcamp, electronic music, Mexico, memorial">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Nordika Official Memorial">
+    <meta property="og:description" content="Remembering the legacy of Héctor Alejandro Marín Ríos.">
+    <meta property="og:image" content="assets/logo.png">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Support Banner -->
+    <div class="top-banner">
+        <span id="top-banner-text">BY PURCHASING THE MUSIC, YOU SUPPORT THE NÓRDIKA FAMILY. THANK YOU FOR YOUR SUPPORT!</span>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-inner">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Nordika Logo" class="header-logo-img">
+                <span>NORDIKA</span>
+            </div>
+
+            <!-- Hamburger Button -->
+            <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <!-- Nav + Actions -->
+            <div class="nav-container" id="nav-container">
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#home" id="nav-home">Home</a></li>
+                        <li><a href="#about" id="nav-about">Biography</a></li>
+                        <li><a href="#legacy" id="nav-legacy">Support</a></li>
+                        <li><a href="#photos" id="nav-photos">Photos</a></li>
+                        <li><a href="#music" id="nav-music">Music</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <button id="lang-btn" class="lang-btn" aria-label="Switch language">
+                        <img src="https://flagcdn.com/w20/us.png" alt="EN" id="current-lang-flag"> 
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="social-icons header-social">
+                        <a href="https://www.facebook.com/nordikaoficial" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/nordika.official/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://open.spotify.com/intl-es/artist/2q8FLnV4G28JDv7OgIO062" target="_blank" aria-label="Spotify"><i class="fa-brands fa-spotify"></i></a>
+                        <a href="https://aquorecords.bandcamp.com/" target="_blank" aria-label="Bandcamp"><i class="fa-brands fa-bandcamp"></i></a>
+                    </div>
+                    <a href="https://aquorecords.bandcamp.com/" target="_blank" class="btn btn-shop" id="nav-shop">Shop</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav-overlay"></div>
+    </header>
+
+    <main>
+        <!-- HERO SLIDER -->
+        <section id="home" class="hero">
+            <div class="slider-container">
+                <div class="slide active" style="background-image: url('assets/hero_forest.jpg');"></div>
+                <div class="slide" style="background-image: url('assets/slider_desk.jpg');"></div>
+                <div class="slide" style="background-image: url('assets/slider_wall.jpg');"></div>
+                <div class="slide" style="background-image: url('assets/slider_leaning.jpg');"></div>
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <p class="hero-tag anim-fade" id="hero-remembering">REMEMBERING HIM</p>
+                <h1 class="anim-fade d1">Nordika Official</h1>
+                <div class="memorial-box anim-fade d2">
+                    <h2>Héctor Alejandro Marín Ríos</h2>
+                    <p id="hero-in-loving-memory">IN LOVING MEMORY</p>
+                </div>
+                <a href="https://aquorecords.bandcamp.com/" target="_blank" class="btn btn-hero anim-fade d3" id="hero-btn">BUY MUSIC</a>
+                <p class="hero-dates anim-fade d4">1985.04.15 – 2024.08.24</p>
+            </div>
+            <div class="hero-scroll-indicator">
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- ABOUT / BIOGRAPHY -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image anim-scroll">
+                        <img src="assets/nordika_1.jpg" alt="Héctor Alejandro Marín Ríos">
+                    </div>
+                    <div class="about-text anim-scroll">
+                        <h2 class="section-title" id="about-title">Our Brother's Legacy</h2>
+                        <p id="about-p1">This site honors the musical legacy of Héctor Alejandro Marín Ríos (Nördika), celebrating his passion and contributions to the band he loved.</p>
+                        <p id="about-p2">Dedicated to preserving his memory, this site showcases his music, performances, and the joy he brought to many through his art.</p>
+                        <p id="about-p3">Join us in remembering him. Celebrate the music and memories of a talented artist and explore the depth of his synthpop creations.</p>
+                        <a href="#music" class="btn btn-outline" id="about-btn">Explore His Music</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SALES FUNNEL / WHY SUPPORT -->
+        <section id="legacy" class="section funnel-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title" id="funnel-title">Preserve His Legacy, Support His Family</h2>
+                    <p class="section-lead" id="funnel-subtitle">Streaming his music keeps his spirit alive, but downloading it digitally makes a direct impact.</p>
+                </div>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-card anim-scroll">
+                        <i class="fa-solid fa-heart-pulse benefit-icon"></i>
+                        <h3 id="benefit-1-title">Direct Support for the Family</h3>
+                        <p id="benefit-1-desc">By purchasing the discography on Bandcamp, funds go directly to the Nórdika family, providing them with valuable support.</p>
+                    </div>
+                    <div class="benefit-card anim-scroll">
+                        <i class="fa-solid fa-sliders benefit-icon"></i>
+                        <h3 id="benefit-2-title">Studio Quality Audio</h3>
+                        <p id="benefit-2-desc">Download albums in lossless formats (FLAC/ALAC) and experience every detail of the synthesizers and his voice.</p>
+                    </div>
+                    <div class="benefit-card anim-scroll">
+                        <i class="fa-solid fa-cloud-arrow-down benefit-icon"></i>
+                        <h3 id="benefit-3-title">Own Your Music</h3>
+                        <p id="benefit-3-desc">Unlike streaming, buying digital downloads means the music is yours forever. Listen on any device, even offline.</p>
+                    </div>
+                </div>
+
+                <div class="funnel-cta anim-scroll">
+                    <h3 id="funnel-cta-title">Get the full discography and keep the music alive.</h3>
+                    <a href="https://aquorecords.bandcamp.com/" target="_blank" class="btn btn-bandcamp" id="funnel-cta-btn">Go to Bandcamp</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PHOTOS -->
+        <section id="photos" class="section photos-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" id="photos-title">Cherished Memories</h2>
+                    <p class="section-lead" id="photos-subtitle">A glimpse into his performances and the journey of Nordika.</p>
+                </div>
+                <div class="photo-gallery">
+                    <div class="gallery-item anim-scroll"><img src="assets/nordika_2.jpg" alt="Nordika live performance" loading="lazy"></div>
+                    <div class="gallery-item anim-scroll"><img src="assets/nordika_3.jpg" alt="Nordika live performance" loading="lazy"></div>
+                    <div class="gallery-item anim-scroll"><img src="assets/nordika_4.jpg" alt="Nordika live performance" loading="lazy"></div>
+                    <div class="gallery-item anim-scroll"><img src="assets/nordika_5.jpg" alt="Nordika live performance" loading="lazy"></div>
+                    <div class="gallery-item anim-scroll"><img src="assets/nordika_6.jpg" alt="Nordika live performance" loading="lazy"></div>
+                    <div class="gallery-item anim-scroll"><img src="assets/nordika_8.jpg" alt="Nordika live performance" loading="lazy"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MUSIC -->
+        <section id="music" class="section music-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" id="music-title">The Last Work</h2>
+                    <p class="section-lead" id="music-subtitle">This release marks the end of his physical musical journey, but his electronic legacy will resonate forever.</p>
+                </div>
+
+                <div class="music-grid">
+                    <div class="video-wrapper anim-scroll">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/HogKK7a8RXA?si=KT8-y0vqMfTMCUxr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="music-iframe"></iframe>
+                    </div>
+                    <div class="player-wrapper anim-scroll">
+                        <iframe style="border:0; width:100%; height:100%; border-radius:12px;" src="https://bandcamp.com/EmbeddedPlayer/album=1284630894/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless class="music-iframe"></iframe>
+                    </div>
+                </div>
+
+                <!-- LATEST TRACKS GRID (FOR FUNNEL) -->
+                <div class="latest-tracks-section">
+                    <h3 class="tracks-title" id="latest-tracks-title">The Latest Tracks</h3>
+                    <p class="tracks-subtitle" id="latest-tracks-subtitle">By purchasing Nordika's music, you honor his legacy and support his family, keeping his passion and creativity alive.</p>
+                    <div class="tracks-grid">
+                        <a href="https://aquorecords.bandcamp.com/album/lost-generation" target="_blank" class="track-card anim-scroll">
+                            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=649,fit=crop/m5Kwy0xJ5nUEx9Vq/a2364198876_2-AGB6B2BypNIwrK25.jpg" alt="Lost Generation">
+                        </a>
+                        <a href="https://aquorecords.bandcamp.com/album/fell-in-from-stars" target="_blank" class="track-card anim-scroll">
+                            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=649,fit=crop/m5Kwy0xJ5nUEx9Vq/a1133641249_2-AwvMv4vbQJiknGjO.jpg" alt="Fell in From Stars">
+                        </a>
+                        <a href="https://aquorecords.bandcamp.com/album/angels-in-the-dark-2" target="_blank" class="track-card anim-scroll">
+                            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=649,fit=crop/m5Kwy0xJ5nUEx9Vq/a2515993452_2-AGB6B2By1JhVRxKz.jpg" alt="Angels in the Dark">
+                        </a>
+                        <a href="https://aquorecords.bandcamp.com/album/ragnar-k" target="_blank" class="track-card anim-scroll">
+                            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=649,fit=crop/m5Kwy0xJ5nUEx9Vq/a3290169195_2-AMqbq1qWPyiM1w8j.jpg" alt="RAGNARÖK">
+                        </a>
+                        <a href="https://aquorecords.bandcamp.com/album/hipnotik" target="_blank" class="track-card anim-scroll">
+                            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=649,fit=crop/m5Kwy0xJ5nUEx9Vq/a3192868636_2-Aq2v2W2bkWIeMEXM.jpg" alt="Hipnotik">
+                        </a>
+                        <a href="https://aquorecords.bandcamp.com/album/toxic-vampire" target="_blank" class="track-card anim-scroll">
+                            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=649,fit=crop/m5Kwy0xJ5nUEx9Vq/a2608795550_2-mP2W2W2bkpTMpy2E.jpg" alt="Toxic Vampire">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h3><img src="assets/logo.png" alt="Nordika Logo" class="footer-logo-img"> NORDIKA OFFICIAL</h3>
+                <p id="footer-legacy-text">Dedicated to preserving his memory. We celebrate the joy he brought to many through his art and synthesizers.</p>
+            </div>
+            <div class="footer-links">
+                <h4 id="footer-links-title">Links</h4>
+                <ul>
+                    <li><a href="https://aquorecords.bandcamp.com/" target="_blank">Bandcamp Store</a></li>
+                    <li><a href="#music" id="footer-link-1">Listen Now</a></li>
+                    <li><a href="mailto:jonastantra@gmail.com" id="footer-link-2">Support Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h4 id="footer-social-title">Official Socials</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/nordikaoficial" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/nordika.official/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://open.spotify.com/intl-es/artist/2q8FLnV4G28JDv7OgIO062" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                    <a href="https://www.youtube.com/c/N%C3%B3rdikaSynthpopMX" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@nordikaofficial" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://music.apple.com/mx/artist/n%C3%B3rdika/533503327" target="_blank"><i class="fa-brands fa-apple"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Nordika Official. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- BENEFIT POPUP (MODAL) -->
+    <div id="benefit-popup" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <i class="fa-brands fa-bandcamp modal-icon"></i>
+                <h2 id="modal-title">Why buy on Bandcamp?</h2>
+            </div>
+            <ul class="modal-benefits">
+                <li><i class="fa-solid fa-check"></i> <span id="modal-b1">Funds go directly to the Nórdika family.</span></li>
+                <li><i class="fa-solid fa-check"></i> <span id="modal-b2">Lossless audio quality (FLAC / ALAC).</span></li>
+                <li><i class="fa-solid fa-check"></i> <span id="modal-b3">Permanent access, even without internet.</span></li>
+                <li><i class="fa-solid fa-check"></i> <span id="modal-b4">Exclusive digital booklets and artwork.</span></li>
+            </ul>
+            <a href="https://aquorecords.bandcamp.com/" target="_blank" class="btn btn-bandcamp full-width" id="modal-btn">Visit Store</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
