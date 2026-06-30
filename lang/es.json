@@ -1,0 +1,30 @@
+{
+    "banner": {
+        "message": "APOYA EL LEGACY — <strong>COMPRAR LA MÚSICA EN BANDCAMP</strong> — CADA COMPRA APOYA A LA FAMILIA"
+    },
+    "nav": {
+        "home": "Inicio",
+        "about": "Biografía",
+        "music": "Discografía",
+        "videos": "Videos",
+        "memories": "Recuerdos",
+        "shop": "COMPRAR MÚSICA"
+    },
+    "hero": {
+        "remembering": "EN MEMORIA DE",
+        "memory": "IN LOVING MEMORY",
+        "buyMusic": "COMPRAR EN BANDCAMP"
+    },
+    "discography": {
+        "title": "Discografía Completa",
+        "subtitle": "Toda la música de NÓRDIKA disponible en Bandcamp — Cada compra apoya a la familia"
+    },
+    "videos": {
+        "title": "Videos Musicales",
+        "subtitle": "Descubre el arte visual de NÓRDIKA en YouTube"
+    },
+    "memories": {
+        "title": "Comparte tus Recuerdos",
+        "subtitle": "¿Conociste a Héctor o asististe a un show de NÓRDIKA? Comparte tu historia con nosotros."
+    }
+}
